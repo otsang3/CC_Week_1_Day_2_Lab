@@ -63,7 +63,7 @@ def number_to_full_month_name(num)
 end
 
 def number_to_short_month_name(num)
-  return number_to_full_month_name(num).sliced(0,3)
+  return number_to_full_month_name(num).slice(0,3)
 end
 
 # def number_to_short_month_name(num)

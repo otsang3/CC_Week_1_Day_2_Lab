@@ -66,44 +66,12 @@ def number_to_short_month_name(num)
   return number_to_full_month_name(num).slice(0,3)
 end
 
-# def number_to_short_month_name(num)
-#   case num
-#   when 1
-#     return "Jan"
-#   when 2
-#     return "Feb"
-#   when 3
-#     return "Mar"
-#   when 4
-#     return "Apr"
-#   when 5
-#     return "May"
-#   when 6
-#     return "Jun"
-#   when 7
-#     return "Jul"
-#   when 8
-#     return "Aug"
-#   when 9
-#     return "Sep"
-#   when 10
-#     return "Oct"
-#   when 11
-#     return "Nov"
-#   when 12
-#     return "Dec"
-#   else
-#     return "Invalid - Please insert number between 1 and 12"
-#   end
-# end
-
-
 def volume_of_cube(length)
   return length **3
 end
 
 def volume_of_sphere(radius)
-  volume_round = 4.0/3.0 * 3.14 * (radius**3)
+  volume_round = 4.0/3.0 * Math::PI * (radius**3)
   return volume_round.round(5)
 end
 

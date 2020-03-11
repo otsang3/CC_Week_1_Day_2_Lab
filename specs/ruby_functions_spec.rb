@@ -93,7 +93,7 @@ class FunctionsTest < MiniTest::Test
   def test_volume_of_sphere()
     #add test code here
     result = volume_of_sphere(2)
-    assert_equal(33.49333, result)
+    assert_equal(523.5987755982989, result)
   end
 
   #Given a value in farenheit, convert this into celsius.
